@@ -1,0 +1,411 @@
+basic:
+  name: Volodymyr Fesko # name
+  title: CTO / DevOps / RnD # job title
+  avatar:
+    show: true # show or hide avatar
+    path: /assets/images/avatar.jpeg # avatar file path
+
+contact:
+  # meta
+  location: Kyiv, Ukraine # location
+  email: online-resume.relax150@passinbox.com # email address
+  phone: # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: # site URL without schema, like example.com, will automatically prepand "https://"
+
+  gender: Male # gender or pronoun
+  birthday: 1986 # birthday
+  nationality: # nationality
+  visa: # passport visa
+  drivinglicense: # driving licence
+
+  # contact
+  wechat: # username
+  whatsapp: # 8611122223333     | https://wa.me/8611122223333
+  telegram: vlfesko #           | https://t.me/username
+  messenger: # username          | https://m.me/username
+  line: # lineid            | https://line.me/R/ti/p/@lineid
+  viber: # username          | https://vb.me/username
+  threema: # userid            | https://threema.id/userid
+
+  # programmer
+  github: vlfesko # username          | https://github.com/username
+  gitlab: # username          | https://gitlab.com/username
+  bitbucket: # username          | https://bitbucket.com/username
+  stackoverflow: # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode: # username          | https://leetcode.com/username
+  codeforces: # username          | https://codeforces.com/profile/username
+  codewars: # username          | https://www.codewars.com/users/username
+  codepen: # username          | https://codepen.io/username
+  tryhackme: # username          | https://tryhackme.com/p/username
+
+  # academic
+  googlescholar: # username          | https://scholar.google.com/citations?user=username
+  researchgate: # username          | https://www.researchgate.net/profile/username
+  kaggle: # username          | https://www.kaggle.com/username
+  orcid: # id                | https://orcid.org/id
+  figshare: # name/id           | https://figshare.com/authors/name/id
+
+  # writer
+  devto: # username          | https://dev.to/username
+  medium: # username          | https://medium.com/@username
+  wordpress: # username          | https://username.wordpress.com
+  blogger: # username          | https://username.blogspot.com
+  wikipedia: # username          | https://www.wikipedia.org/wiki/User:username
+
+  # designer
+  figma: # username          | https://www.figma.com/@username
+  behance: # username          | https://www.behance.net/username
+  dribble: # username          | https://dribbble.com/username
+  artstation: # username          | https://www.artstation.com/username
+
+  # other cv
+  linkedin: # username          | https://linkedin.com/in/username
+  indeed: # resumeid          | https://my.indeed.com/p/resumeid
+  xing: # username          | https://www.xing.com/profile/username
+  fiverr: # username          | https://www.fiverr.com/username
+  freelancer: # username          | https://www.freelancer.com/u/username
+
+  # social media
+  twitter: # username          | https://twitter.com/username
+  mastodon: # username@server
+  instagram: # username          | https://instagram.com/username
+  unsplash: # username          | https://unsplash.com/@username
+  _500px: # username          | https://500px.com/p/username
+  youtube: # username          | https://www.youtube.com/@username
+  tiktok: # username          | https://www.tiktok.com/@username
+  quora: # username          | https://www.quora.com/profile/username
+  zhihu: # username          | https://www.zhihu.com/people/username
+  goodreads: # username          | https://www.goodreads.com/user/show/username
+  strava: # useid             | https://www.strava.com/athletes/userid
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    IT professional with wide range of interests, especially in software development and IT infrastructure.
+
+    Long time ago I was basic IT technician whose responsibility was maintaining Windows/Unix systems and crafting tiny tools and scripts
+    to make everybody happy dealing with day to day work. Then I took a new role as a lecturer of IT internals - software development and infrastructure -
+    it was awesome experience I would now say! I shared my knowledge with hundreds of people who successfully graduated and now live their lives making
+    good things. I realized that my passion is deepest dive into technologies and software.
+
+experience:
+  show: true
+  order: 2
+  title: Experiences
+  description: |
+    Being loyal to my companies, I prefer not to jump from one to another too often.
+
+  items:
+    - company: Smile Ukraine - Open Source Solutions in Ukraine
+      link: "https://smile-ukraine.com/"
+      tags: Full-time
+      date: 2013.05 - present
+      role: Chief Technology Officer
+      location: Kyiv, Ukraine
+      description: |
+        In past 10 years as a CTO:
+        + Significantly improved company infrastructure, maintained its important services (securely connected offices across several countries, ISP failover, DNS etc) 
+        + Established internal IT team of 10+ members providing DevOps Services, supervising and coordinating, recruiting and adapting new people
+        + Established and oversaw development standards (web applications, CI/CD, infrastructure) 
+        + Built technical solution concepts, PoCs
+        + Built internal DC based on Open Nebula
+        + Steered technology communities
+        + Dealt with legacy systems, migrating to modern technologies
+        + Helped pre-sales team to prepare valuable offers
+        + Performed technical, performance and security audits 
+        + Mastered extreme troubleshooting skills over years
+        + Went from SVN to GitLab, from Fabric to modern CI/CD, from pfSense to RouterOS and from Windows to Mac
+        
+        Conducted trainings:
+        + Magento 2 technology stack and Certification
+        + DevOps technology stack
+        + Web/HTTP FastTrack
+        + OWASP Top 10 vulnerabilities
+
+        Active developer / DevOps:
+        + Wrote apps in Laravel, Slim and other handy frameworks
+        + Maintained infrastructure (configuration management, monitoring...)
+        + Supported project teams (problem solving, architecture, performance)
+
+    - company: Smile Ukraine - Open Source Solutions in Ukraine
+      link: "https://smile-ukraine.com/"
+      tags: Full-time
+      date: 2012.04 - 2013.05
+      role: PHP/Magento Developer
+      location: Kyiv, Ukraine
+      description: |
+        Mastered Magento 1 Enterprise Edition from scratch and certified as Developer PLUS and Zend PHP Engineer.
+        + Magento 1 eCommerce solutions development and delivery
+        + Data import/export and optimization
+        + Service integrations
+        + Direct communications with business
+        + Maintained other PHP technologies: Drupal, WordPress, Joomla
+
+    - company: Knauf Gips Donbass
+      link: "https://www.knauf.ua/"
+      tags: Full-time
+      date: 2010.05 - 2012.04
+      role: System Administrator
+      location: Soledar, Ukraine
+      description: |
+        As a Systems Administrator I had a wide-ranging duties including installing,
+        supporting and maintaining servers and other computer systems, developing and deploying intranet software,
+        maintaining and improving websites in PHP, planning for and responding to service outages,
+        data processing automation with tools developed in program language which is appropriate to situation.
+        + Maintained and improved existing IT infrastructure
+        + Automated data processing with developed tools in C#, Delphi
+        + Wrote technical documentation
+        + Designed and implemented automated data backup systems
+        + Developed user's help desk system in PHP (LAMP)
+
+    - company: Bakhmut Transport Infrastructure College
+      link: "https://acti.dn.ua/"
+      tags: Full-time
+      date: 2009.09 - 2010.04
+      role: IT Engineer
+      location: Bakhmut, Ukraine
+      description: |
+        Maintaining and improving IT infrastructure, optimizing business processes and IT goals, lecturing.
+        + Restructurized IT infrastructure
+        + Developed intranet software in Delphi
+        + Designed and implemented microcontroller driven systems
+        + Maintained websites in PHP
+        + Managed work of system administrators
+        + Lectured in Computer Sciences and Fundamentals of Electrical Engineering
+
+    - company: Bakhmut Transport Infrastructure College
+      link: "https://acti.dn.ua/"
+      tags: Full-time
+      date: 2005.08 - 2009.09
+      role: IT Techinical / System Administrator
+      location: Bakhmut, Ukraine
+      description: |
+        Maintaining Windows/Unix systems, lecturing.
+        + Developed schedule construction tool in Delphi, electronic books shell and other internal tools
+        + Maintained websites in PHP
+        + Configured and maintained Unix-based proxy, Internet and e-mail server
+        + Lectured in Computer Sciences and Fundamentals of Electrical Engineering
+
+skill:
+  show: true
+  order: 3
+  title: Skills
+  description: |
+    Rock-solid technical background: IT technician and teacher in early years, System Administrator and Networks Engineer,
+    Full-stack Developer (PHP) and CTO of the IT company with 300+ employees. Years of technology bound work gave me outstanding abilities
+    to solve widest range of technical issues, debug to the deepest origins and provide sophisticated solutions.
+
+  items:
+    - name: PHP
+      level: 5
+    - name: Web
+      level: 5
+    - name: Databases
+      level: 4
+    - name: Networking
+      level: 4
+    - name: OS
+      level: 4
+    - name: Cloud / Virt
+      level: 4
+    - name: Monitoring
+      level: 4
+    - name: CI/CD
+      level: 4
+    - name: Configuration
+      level: 5
+
+  groups:
+    - name: PHP
+      item:
+        - Magento 1
+        - Magento 2
+        - Laravel
+        - Symfony
+    - name: Web
+      item:
+        - Apache
+        - Nginx
+        - Varnish
+        - HTTP, SSL/TLS
+        - Email
+        - CDN
+    - name: Databases
+      item:
+        - MySQL
+        - PostgreSQL
+        - Redis
+        - Memcached
+        - Elasticsearch
+        - MongoDB
+    - name: Networking
+      item:
+        - MikroTik (RouterOS), Ubiquiti
+        - Firewalls
+        - Routing
+        - Protocols
+        - Load Balancing
+    - name: OS
+      item:
+        - Linux
+        - MacOS
+        - Windows
+    - name: Cloud / Virt
+      item:
+        - AWS
+        - DO
+        - Hetzner
+        - OVH
+        - Docker
+        - LXC
+        - Kubernetes
+        - Microservices
+        - IaaC
+    - name: Monitoring
+      item:
+        - New Relic
+        - Prometheus
+        - Grafana
+        - ELK
+        - Zabbix
+    - name: CI/CD
+      item:
+        - Jenkins
+        - Gitlab CI
+        - Github Actions
+        - Capistrano
+        - Fabric
+        - Deployer
+    - name: Configuration
+      item:
+        - Terraform
+        - Ansible
+        - Puppet
+    - name: Extra Skills
+      item:
+        - Redmine
+        - Jira
+        - Scripting
+        - Automation
+        - Desing patterns
+        - Balena Cloud
+        - AVR MC
+
+education:
+  show: true
+  order: 4
+  title: Education
+  description:
+  items:
+    - institution: Donbass State Engineering Academy
+      link: "http://www.dgma.donetsk.ua/"
+      date: 2009 - 2010
+      major: IT Infrastructure design
+      degree: Master
+      description:
+
+    - institution: Donbass State Engineering Academy
+      link: "http://www.dgma.donetsk.ua/"
+      date: 2005 - 2009
+      major: IT Infrastructure design
+      degree: Bachelor
+      description:
+
+    - institution: Bakhmut Transport Infrastructure College
+      link: "https://acti.dn.ua/"
+      date: 2001 - 2005
+      major: Computer systems and networks maintenance
+      degree: Junior Bachelor
+      description:
+
+certificate:
+  show: true
+  order: 5
+  title: Certificates
+  description:
+  items:
+    - name: "HashiCorp Certified: Terraform Associate (003)"
+      issuer: HashiCorp
+      date: 2023.05
+      link: "https://www.credly.com/badges/725d0323-3075-4db1-917d-7d2c3651733c/public_url"
+      description:
+    - name: AWS Certified Solutions Architect – Associate
+      issuer: Amazon Web Services Training and Certification
+      date: 2022.08
+      link: "https://www.credly.com/badges/1cb8d864-842c-4bbe-8f21-e1ef48a84e23/public_url"
+      description:
+    - name: Zend Certified Engineer PHP 5.3
+      issuer: Zend
+      date: 2013.08
+      link: "#"
+      description:
+    - name: Magento Certified Developer PLUS
+      issuer: Magento
+      date: 2013.02
+      link: "#"
+      description:
+    - name: M101P MongoDB for Developers
+      issuer: 10gen
+      date: 2012
+      link: "#"
+      description:
+    - name: PHP 5 Internet Applications Development
+      issuer: RetraTech
+      date: 2011.11
+      link: "#"
+      description:
+    - name: Delphi 7 Software Developer
+      issuer: RetraTech
+      date: 2011.05
+      link: "#"
+      description:
+    - name: Developing Applications with Visual C# .NET 2003
+      issuer: RetraTech
+      date: 2010.05
+      link: "#"
+      description:
+
+publication:
+  show: true
+  order: 6
+  title: Publications
+  description:
+  items:
+    - title: Udemy Course "Основи World Wide Web та протокола HTTP", first one in ukraininan
+      authors: Volodymyr Fesko
+      conference: Udemy, 2023
+      link: "https://www.udemy.com/course/www-http/"
+
+language:
+  show: true
+  order: 7
+  title: Languages
+  description:
+  items:
+    - idiom: Ukrainian
+      level: Native
+    - idiom: Russian
+      level: Native
+    - idiom: English
+      level: Upper-Intermediate
+    - idiom: French
+      level: Basic
+
+interest:
+  show: true
+  order: 8
+  title: Interests
+  description:
+  items:
+    - item: Smart Home
+      link:
+    - item: Audio technologies
+      link:
+    - item: Fishing
+      link:
+    - item: Engineering
+      link:
+
+close: <strong>Sorry, my resume has been hidden.</strong>
