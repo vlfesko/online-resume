@@ -1,6 +1,6 @@
 basic:
   name: Volodymyr Fesko # name
-  title: DevOps / Lead / Tech Manager # job title
+  title: DevOps / Lead / Architect # job title
   avatar:
     show: true # show or hide avatar
     path: /assets/images/avatar.jpeg # avatar file path
@@ -8,7 +8,7 @@ basic:
 contact:
   # meta
   location: Kyiv, Ukraine # location
-  email: online-resume.relax150@passinbox.com # email address
+  email: volodymyr.fesko@gmail.com # email address
   phone: # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: # site URL without schema, like example.com, will automatically prepand "https://"
 
@@ -28,7 +28,7 @@ contact:
   threema: # userid            | https://threema.id/userid
 
   # programmer
-  github: vlfesko # username          | https://github.com/username
+  github: # username          | https://github.com/username
   gitlab: # username          | https://gitlab.com/username
   bitbucket: # username          | https://bitbucket.com/username
   stackoverflow: # id or id/username | https://stackoverflow.com/users/id/username
@@ -95,17 +95,17 @@ experience:
   order: 2
   title: Experiences
   description: |
-    Being loyal to my companies, I prefer not to jump from one to another too often.
+    For many years I work with dev teams to make as good software as possible, leveraging modern tools and technologies.
 
   items:
     - company: Smile Ukraine - Open Source Solutions in Ukraine
       link: "https://smile-ukraine.com/"
       tags: Full-time
       date: 2013.05 - present
-      role: Chief Technology Officer
+      role: DevOps Team Lead / CTO
       location: Kyiv, Ukraine
       description: |
-        In past 10 years as a CTO:
+        In past 10 years as a DevOps Team Lead / CTO:
         + Significantly improved company infrastructure, maintained its important services (securely connected offices across several countries, ISP failover, DNS etc) 
         + Established internal IT team of 10+ members providing DevOps Services, supervising and coordinating, recruiting and adapting new people
         + Established and oversaw development standards (web applications, CI/CD, infrastructure) 
