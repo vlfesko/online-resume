@@ -98,6 +98,18 @@ experience:
     For many years I work with dev teams to make as good software as possible, leveraging modern tools and technologies.
 
   items:
+    - company: Latest projects
+      date: past years
+      role: Developer / DevOps / TeamLead
+      location: WorldWide
+      description: |
+        + Laravel applications developed from scratch: Financial, SEO, Crypto, News, Sports domains
+        + Magento 2 applications hosted and maintained
+        + Built AWS solutions for web applications
+        + Server infrastructure optimization performed, migrated web apps to new hosting
+        + Automated AI workflows with n8n
+        + many more...
+
     - company: Smile Ukraine - Open Source Solutions in Ukraine
       link: "https://smile-ukraine.com/"
       tags: Full-time
