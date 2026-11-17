@@ -1,6 +1,6 @@
 basic:
   name: Volodymyr Fesko # name
-  title: Expert Web Developer | DevOps & Solutions Architect # job title
+  title: Tech Lead / DevOps # job title
   avatar:
     show: true # show or hide avatar
     path: /assets/images/avatar.jpeg # avatar file path
@@ -8,7 +8,7 @@ basic:
 contact:
   # meta
   location: Kyiv, Ukraine # location
-  email: volodymyr.fesko@gmail.com # email address
+  email: hi@fesko.dev # email address
   phone: # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: # site URL without schema, like example.com, will automatically prepand "https://"
 
@@ -83,12 +83,11 @@ profile:
   order: 1
   title: Profile
   description: |
-    IT professional with wide range of interests, especially in software development and IT infrastructure.
+    I'm an engineer who loves both building software and running the infrastructure behind it.
 
-    Long time ago I was basic IT technician whose responsibility was maintaining Windows/Unix systems and crafting tiny tools and scripts
-    to make everybody happy dealing with day to day work. Then I took a new role as a lecturer of IT internals - software development and infrastructure -
-    it was awesome experience I would now say! I shared my knowledge with hundreds of people who successfully graduated and now live their lives making
-    good things. I realized that my passion is deepest dive into technologies and software.
+    I started as an IT technician, looking after Windows and Unix machines and writing small tools and scripts to make everyday work easier for people.
+    Later I spent several years teaching software development and IT infrastructure. I really enjoyed it, and hundreds of my students went on to build careers in tech.
+    That's when I understood what drives me most: going deep into how technology really works and building software on top of it.
 
 experience:
   show: true
@@ -98,6 +97,51 @@ experience:
     For many years I work with dev teams to make as good software as possible, leveraging modern tools and technologies.
 
   items:
+    - company: Own product development
+      tags: Product
+      date: 2026 - present
+      role: Tech Lead / Developer / DevOps
+      location: Kyiv, Ukraine
+      description: |
+        Family of cross-platform desktop applications with cloud backends, built end to end: architecture, code, release pipeline, hosting.
+        + Desktop apps in Rust (egui) for macOS and Windows: universal builds (Apple Silicon + Intel, macOS 12+), code signing and notarization, installers, auto-update
+        + Shared component libraries reused across apps (Rust) and sites (JavaScript), vendored with a version lock
+        + Speech recognition (Whisper), ONNX models, screen and camera recording (FFmpeg), AI text tools via LLM provider APIs
+        + Video surveillance integration on Windows: camera relays, Qt + GStreamer client, vendor SDK bridged to HTTP/JSON, licence plate recognition
+        + Cloud backends in Node.js (Fastify) + PostgreSQL: accounts, sign-in, licensing and payments, release channels, update manifests
+        + Hosting on a self-built k3s cluster at Hetzner: Traefik + Let's Encrypt, Longhorn, CloudNativePG, CrowdSec, network policies, one-command deploys
+        + Self-hosted services: Umami analytics, n8n automation, Plane project tracking; Cloudflare DNS/CDN
+        + AI-assisted engineering workflow with agentic coding tools: parallel work in branches/worktrees, design-to-code pixel checks, tiered tests
+
+    - company: Sovereign digital workplace platform
+      tags: Smile
+      date: 2026
+      role: Tech Lead / DevOps
+      location: Kyiv, Ukraine
+      description: |
+        Collaboration suite on private Kubernetes, preproduction and production clusters, built from idempotent provisioning scripts.
+        + k3s clusters (multi-node), Traefik, cert-manager, load balancer and edge front-end on OVH, Pod Security, NetworkPolicies
+        + Storage and data: Longhorn, Garage (S3), CloudNativePG with backups and restore tests, Redis Sentinel, Percona MongoDB operator, Elasticsearch (ECK), off-site backups
+        + Applications: Nextcloud (Talk with TURN/recording, Collabora / Euro-Office, Whiteboard, full-text search), Matrix (Synapse), XWiki, OpenProject, Penpot, Budibase, Snipe-IT
+        + Identity and mail: SSO with Keycloak (OIDC), BlueMind integration, IMAP autoconfig
+        + On-premise AI: models on an NVIDIA DGX host behind an LLM gateway, LibreChat, Nextcloud Assistant and context agent, Arize Phoenix tracing
+        + Operations: Prometheus / Grafana monitoring, centralised logging, CrowdSec, Headlamp, Dozzle, private image registry; zero-downtime upgrades of apps and nodes
+
+    - company: Identity and access management platform
+      tags: Smile
+      date: 2026
+      role: Tech Lead / DevOps
+      location: Kyiv, Ukraine
+      description: |
+        Identity and access management platform (Univention Nubus, Keycloak) on Kubernetes, with a production-shaped local environment.
+        + GitOps: Argo CD with a Helm render plugin, Forgejo + Actions runners, External Secrets with OpenBao (Vault API)
+        + Infrastructure as code with OpenTofu: databases and roles, S3 buckets, secrets layout, DNS zones (PowerDNS), operator IdP
+        + Edge security: ALB with Caddy + Coraza WAF (OWASP CRS), TLS bridging, HAProxy Ingress, cert-manager, admission policy for allowed registries
+        + Supply chain: Harbor registry with Trivy scanning, image mirroring by digest with signatures
+        + Data protection: PostgreSQL with pgBackRest (WAL archive, point-in-time clone), Velero backups, SeaweedFS object storage
+        + Observability and audit: OpenTelemetry Collector, Prometheus, Loki, Grafana, Alertmanager with unit-tested rules, SIEM feed
+        + Smoke tests across the whole request path, NetworkPolicy checks, documentation verified against the running environment
+
     - company: Latest projects
       date: past years
       role: Developer / DevOps / TeamLead
@@ -273,7 +317,8 @@ skill:
         - OVH
         - Docker
         - LXC
-        - Kubernetes
+        - Kubernetes (k3s, managed)
+        - Helm, Argo CD
         - Microservices
         - IaaC
     - name: Monitoring
@@ -283,6 +328,8 @@ skill:
         - Grafana
         - ELK
         - Zabbix
+        - Loki
+        - OpenTelemetry
     - name: CI/CD
       item:
         - Jenkins
@@ -294,8 +341,22 @@ skill:
     - name: Configuration
       item:
         - Terraform
+        - OpenTofu
         - Ansible
         - Puppet
+    - name: Development
+      item:
+        - Rust (egui)
+        - Node.js (Fastify)
+        - macOS / Windows apps
+        - LLM integration
+    - name: Security / IAM
+      item:
+        - Keycloak, OIDC
+        - WAF (Coraza, OWASP CRS)
+        - CrowdSec
+        - Harbor, Trivy
+        - Vault / OpenBao
     - name: Extra Skills
       item:
         - Redmine
@@ -349,6 +410,11 @@ certificate:
       date: 2022.08
       link: "https://www.credly.com/badges/1cb8d864-842c-4bbe-8f21-e1ef48a84e23/public_url"
       description:
+    - name: EF SET English Certificate, C1 Advanced
+      issuer: EF Education First
+      date:
+      link:
+      description:
     - name: Zend Certified Engineer PHP 5.3
       issuer: Zend
       date: 2013.08
@@ -383,9 +449,17 @@ certificate:
 publication:
   show: true
   order: 6
-  title: Publications
+  title: Publications & Trainings
   description:
   items:
+    - title: "OWASP Top 10:2025 — web application security training"
+      authors: Volodymyr Fesko
+      conference: Training for development teams
+      link:
+    - title: "OWASP Top 10 vulnerabilities — security training"
+      authors: Volodymyr Fesko
+      conference: Smile Ukraine, internal training
+      link:
     - title: Udemy Course "Основи World Wide Web та протокола HTTP", first one in ukraininan
       authors: Volodymyr Fesko
       conference: Udemy, 2023
@@ -402,7 +476,7 @@ language:
     - idiom: Russian
       level: Native
     - idiom: English
-      level: Upper-Intermediate
+      level: C1 (EF SET)
     - idiom: French
       level: Basic
 
